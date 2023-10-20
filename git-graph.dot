@@ -1,0 +1,5 @@
+digraph GitGraph {
+rankdir=LR;
+"0000000000000000000000000000000000000000 d84c19358b3545a4f0edf1329cf89d9f62fc6f8a Melkor <gadhiev-2019@bk.ru> 1696673711 +0300" [label="0000000\ncommit (initial): c0\nundefined\nundefined"];
+"d84c19358b3545a4f0edf1329cf89d9f62fc6f8a 122b95ae7fa78799bef5006309c472153f75801d Melkor <gadhiev-2019@bk.ru> 1696674143 +0300" [label="d84c193\ncommit: c1\nundefined\nundefined"];
+}

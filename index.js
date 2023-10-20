@@ -10,7 +10,7 @@ if (!packageName) {
 
 function generateDependencyGraph(packageName) {
     // Генерируем команду для выполнения 'npm ls' и сохранения результатов в JSON.
-    const npmLsCommand = `npm ls --json --prod --parseable --depth=100 ${packageName}`;
+    const npmLsCommand = `npm ls --json --prod --parseable --depth=200 ${packageName}`;
 
     // Запускаем 'npm ls' и получаем результат в виде JSON.
     const result = spawnSync(npmLsCommand, { shell: true, encoding: 'utf-8' });
@@ -54,3 +54,5 @@ function saveDotGraph(dotGraph) {
 
 const dotGraph = generateDependencyGraph(packageName);
 saveDotGraph(dotGraph);
+
+
